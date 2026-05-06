@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>情報環境スタジオ</title>
+  <meta name="description" content="情報環境を設計する。ツール・書籍・動画を通じて、思考と行動の環境を整える。">
+  <link rel="canonical" href="https://infoenv-studio.com/">
+  <link rel="alternate" hreflang="en" href="https://infoenv-studio.com/en">
+  <link rel="alternate" hreflang="ja" href="https://infoenv-studio.com/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="header-inner">
+      <a href="/" class="site-name">情報環境スタジオ</a>
+      <button class="lang-toggle" onclick="switchLang('en')">EN</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+
+    <div class="hero">
+      <div class="hero-brand">情報環境スタジオ</div>
+    </div>
+
+    <section id="philosophy">
+      <div class="section-label">Philosophy</div>
+      <p class="philosophy-text">
+        情報が多すぎる時代に、何を取り込み、何を遮断し、どう処理するかを設計する。<br>
+        ツール・書籍・動画を通じて、思考と行動の環境を整える。
+      </p>
+    </section>
+
+    <section id="software">
+      <div class="section-label">Software</div>
+      <div class="card-grid">
+        <div class="card">
+          <div class="card-name">SnapDesk</div>
+          <div class="card-desc">アウトプット契約・タスク・メモ・タイマーを 1 ウィンドウに。グローバルショートカットで即起動／即非表示。</div>
+          <a href="https://snapdesk.infoenv-studio.com" class="card-link" target="_blank" rel="noopener">詳細 →</a>
+        </div>
+        <div class="card">
+          <div class="card-name">PauseTab</div>
+          <div class="card-desc">対象サイトを開く前に、ひと呼吸を促す Chrome 拡張機能。衝動のクリックを意識的な選択に置き換える。</div>
+          <a href="https://pausetab.infoenv-studio.com" class="card-link" target="_blank" rel="noopener">詳細 →</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="media">
+      <div class="section-label">Media</div>
+      <p class="section-body">
+        YouTube・Kindle・note などで、情報環境について書き、語る。準備中。
+      </p>
+    </section>
+
+    <section id="contact">
+      <div class="section-label">Contact</div>
+      <div class="contact-links">
+        <a href="mailto:contact@infoenv-studio.com" class="contact-link">contact@infoenv-studio.com</a>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <span class="footer-copy">© 2026 情報環境スタジオ</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+function switchLang(lang) {
+  document.cookie = 'lang=' + lang + ';path=/;max-age=31536000;SameSite=Lax';
+  if (lang === 'en') window.location.href = '/en';
+}
+</script>
+
+</body>
+</html>
