@@ -22,12 +22,11 @@
         <span class="site-mark" aria-hidden="true"></span>
         <span>情報環境スタジオ</span>
       </a>
-      <nav class="site-nav" aria-label="Primary">
-        <a href="#software">Software</a>
-        <a href="#philosophy">Approach</a>
-        <a href="#media">Media</a>
+      <nav class="site-nav" aria-label="メインナビゲーション">
+        <a href="#philosophy">思想</a>
+        <a href="#software">道具</a>
+        <a href="#media">知見</a>
       </nav>
-      <button class="lang-switch" onclick="switchLang('en')">EN</button>
     </div>
   </div>
 </header>
@@ -36,15 +35,13 @@
   <section class="hero">
     <div class="container hero-inner">
       <div class="hero-copy">
-        <p class="eyebrow">Independent software studio</p>
         <h1 class="hero-brand">情報環境を、<br>整える。</h1>
         <p class="hero-tagline">
           何を取り込み、何を遮断し、どう扱うか。
           道具と知見の両面から、思考と行動の環境を設計する。
         </p>
-        <div class="hero-actions" aria-label="Primary actions">
+        <div class="hero-actions" aria-label="主要操作">
           <a class="primary-action" href="#software">製品を見る</a>
-          <a class="secondary-action" href="mailto:contact@infoenv-studio.com">相談する</a>
         </div>
       </div>
 
@@ -53,19 +50,33 @@
           <div class="window-bar">
             <span></span><span></span><span></span>
           </div>
-          <div class="health-ring">
-            <span>86</span>
-          </div>
-          <div class="window-lines">
-            <i></i><i></i><i></i>
+          <div class="window-title">情報を、扱える形にする</div>
+          <div class="flow-board">
+            <div class="flow-card input">
+              <small>入ってくる</small>
+              <span>SNS</span>
+              <span>資料</span>
+              <span>メモ</span>
+            </div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-card filter">
+              <small>選別する</small>
+              <strong>選ぶ/止める</strong>
+            </div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-card output">
+              <small>外に出す</small>
+              <strong>成果物</strong>
+              <span>今日出すもの</span>
+            </div>
           </div>
           <div class="module-row">
-            <span>Output</span>
-            <strong>3 shipped</strong>
+            <span>遮断するもの</span>
+            <strong>衝動のタブ</strong>
           </div>
           <div class="module-row mint">
-            <span>Attention</span>
-            <strong>protected</strong>
+            <span>見えるようにするもの</span>
+            <strong>出したもの</strong>
           </div>
         </div>
         <div class="app-window app-window-side">
@@ -82,26 +93,11 @@
 
   <div class="container">
 
-    <section class="trust-strip" aria-label="Studio highlights">
-      <div>
-        <strong>2</strong>
-        <span>active products</span>
-      </div>
-      <div>
-        <strong>0</strong>
-        <span>dark patterns</span>
-      </div>
-      <div>
-        <strong>2026</strong>
-        <span>studio launch</span>
-      </div>
-    </section>
-
     <section id="philosophy">
       <div class="section-header">
         <span class="section-number">01</span>
-        <span class="section-label">Philosophy</span>
       </div>
+      <h2 class="section-title">思想</h2>
       <p class="philosophy-text">
         情報の量が、注意の質を上回る時代。
         私たちは、何を取り込むかを設計し、何を出すかを管理する。
@@ -114,17 +110,17 @@
       <div class="principle-grid">
         <div class="principle-card">
           <span>01</span>
-          <h3>Respect attention</h3>
+          <h3>注意を尊重する</h3>
           <p>通知や習慣化ではなく、集中を邪魔しない距離感を優先する。</p>
         </div>
         <div class="principle-card">
           <span>02</span>
-          <h3>Make output visible</h3>
+          <h3>成果物を見える化する</h3>
           <p>作業量ではなく、外へ出したものを見える形にしていく。</p>
         </div>
         <div class="principle-card">
           <span>03</span>
-          <h3>Stay quiet</h3>
+          <h3>静かに機能する</h3>
           <p>必要な時だけ現れ、使い終えたら意識から消える道具を作る。</p>
         </div>
       </div>
@@ -133,7 +129,6 @@
     <section id="software">
       <div class="section-header">
         <span class="section-number">02</span>
-        <span class="section-label">Software</span>
       </div>
       <h2 class="section-title">道具</h2>
       <p class="section-body section-lead">
@@ -152,13 +147,13 @@
           </div>
           <div class="card-header">
             <img src="/snapdesk-icon.png" alt="" class="card-icon">
-            <span class="card-meta">macOS · Desktop</span>
+            <span class="card-meta">macOS · デスクトップ</span>
           </div>
           <h3 class="card-name">SnapDesk</h3>
           <p class="card-desc">
             アウトプット契約・タスク・メモ・タイマーを 1 ウィンドウに。
             グローバルショートカットで即起動／即非表示。
-            「やったこと」ではなく「出したもの」を track する。
+            「やったこと」ではなく「出したもの」を記録する。
           </p>
           <span class="card-link">詳細を見る</span>
         </a>
@@ -172,7 +167,7 @@
           </div>
           <div class="card-header">
             <img src="/pausetab-icon.svg" alt="" class="card-icon-svg">
-            <span class="card-meta">Chrome · Extension</span>
+            <span class="card-meta">Chrome · 拡張機能</span>
           </div>
           <h3 class="card-name">PauseTab</h3>
           <p class="card-desc">
@@ -188,13 +183,12 @@
     <section id="media">
       <div class="section-header">
         <span class="section-number">03</span>
-        <span class="section-label">Media</span>
       </div>
       <h2 class="section-title">知見</h2>
       <p class="section-body">
         YouTube・Kindle・note などで、情報環境の扱い方について書き、語る。
         感情訴求ではなく、構造で示す。<br>
-        <span class="coming-soon">準備中 — Coming soon</span>
+        <span class="coming-soon">準備中</span>
       </p>
     </section>
 
@@ -205,8 +199,10 @@
   <div class="container">
     <div class="footer-inner">
       <span class="footer-copy">© 2026 情報環境スタジオ · infoenv-studio</span>
-      <a href="mailto:contact@infoenv-studio.com" class="footer-link">contact@infoenv-studio.com</a>
-      <button class="footer-lang" onclick="switchLang('en')">English</button>
+      <div class="footer-actions">
+        <a href="mailto:contact@infoenv-studio.com" class="footer-link">contact@infoenv-studio.com</a>
+        <button class="footer-lang" onclick="switchLang('en')">English</button>
+      </div>
     </div>
   </div>
 </footer>

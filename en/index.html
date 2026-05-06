@@ -23,10 +23,9 @@
         <span>infoenv-studio</span>
       </a>
       <nav class="site-nav" aria-label="Primary">
-        <a href="#software">Software</a>
         <a href="#philosophy">Approach</a>
+        <a href="#software">Software</a>
       </nav>
-      <button class="lang-switch" onclick="switchLang('ja')">JA</button>
     </div>
   </div>
 </header>
@@ -35,14 +34,12 @@
   <section class="hero">
     <div class="container hero-inner">
       <div class="hero-copy">
-        <p class="eyebrow">Independent software studio</p>
         <h1 class="hero-brand">Tools for your<br>information<br>environment.</h1>
         <p class="hero-tagline">
           An independent studio building software that respects your attention and amplifies what you actually produce.
         </p>
         <div class="hero-actions" aria-label="Primary actions">
           <a class="primary-action" href="#software">View products</a>
-          <a class="secondary-action" href="mailto:contact@infoenv-studio.com">Contact</a>
         </div>
       </div>
 
@@ -51,19 +48,33 @@
           <div class="window-bar">
             <span></span><span></span><span></span>
           </div>
-          <div class="health-ring">
-            <span>86</span>
-          </div>
-          <div class="window-lines">
-            <i></i><i></i><i></i>
+          <div class="window-title">Turn information into output</div>
+          <div class="flow-board">
+            <div class="flow-card input">
+              <small>Incoming</small>
+              <span>Feeds</span>
+              <span>Docs</span>
+              <span>Notes</span>
+            </div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-card filter">
+              <small>Filter</small>
+              <strong>Keep/pause</strong>
+            </div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-card output">
+              <small>Ship</small>
+              <strong>Output</strong>
+              <span>What matters</span>
+            </div>
           </div>
           <div class="module-row">
-            <span>Output</span>
-            <strong>3 shipped</strong>
+            <span>Blocked</span>
+            <strong>Impulse tabs</strong>
           </div>
           <div class="module-row mint">
-            <span>Attention</span>
-            <strong>protected</strong>
+            <span>Made visible</span>
+            <strong>Shipped work</strong>
           </div>
         </div>
         <div class="app-window app-window-side">
@@ -80,26 +91,11 @@
 
   <div class="container">
 
-    <section class="trust-strip" aria-label="Studio highlights">
-      <div>
-        <strong>2</strong>
-        <span>active products</span>
-      </div>
-      <div>
-        <strong>0</strong>
-        <span>dark patterns</span>
-      </div>
-      <div>
-        <strong>2026</strong>
-        <span>studio launch</span>
-      </div>
-    </section>
-
     <section id="philosophy">
       <div class="section-header">
         <span class="section-number">01</span>
-        <span class="section-label">Approach</span>
       </div>
+      <h2 class="section-title">Approach</h2>
       <p class="philosophy-text">
         We don't build for engagement.
         We build for outputs that compound — the things you produce, ship, and stand behind.
@@ -130,7 +126,6 @@
     <section id="software">
       <div class="section-header">
         <span class="section-number">02</span>
-        <span class="section-label">Software</span>
       </div>
       <h2 class="section-title">Tools we build</h2>
       <p class="section-body section-lead">
@@ -188,8 +183,10 @@
   <div class="container">
     <div class="footer-inner">
       <span class="footer-copy">© 2026 infoenv-studio · 情報環境スタジオ</span>
-      <a href="mailto:contact@infoenv-studio.com" class="footer-link">contact@infoenv-studio.com</a>
-      <button class="footer-lang" onclick="switchLang('ja')">日本語</button>
+      <div class="footer-actions">
+        <a href="mailto:contact@infoenv-studio.com" class="footer-link">contact@infoenv-studio.com</a>
+        <button class="footer-lang" onclick="switchLang('ja')">日本語</button>
+      </div>
     </div>
   </div>
 </footer>
