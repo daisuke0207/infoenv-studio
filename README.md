@@ -27,7 +27,7 @@
 
 ### 方法 A: GitHub 連携（推奨、自動 deploy）
 
-1. このリポジトリを GitHub に push（新規 repo: `infoenv-studio-site` 等）
+1. このリポジトリを GitHub に push（新規 repo: `infoenv-studio`、Private）
 2. Cloudflare ダッシュボード → Workers & Pages → Create → Pages → **Connect to Git**
 3. リポジトリ選択
 4. ビルド設定：
@@ -35,7 +35,7 @@
    - Build command: 空白
    - Build output directory: 空白（ルートをそのまま deploy）
 5. **Save and Deploy**
-6. `infoenv-studio-site.pages.dev` で公開確認
+6. `infoenv-studio.pages.dev` で公開確認
 7. **Custom domains** タブ → `infoenv-studio.com` を追加（既存の Squarespace から切替）
 
 ### 方法 B: Direct Upload
