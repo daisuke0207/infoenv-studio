@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+<!-- Same blue mark; 96px outer width at 128px. The triangle moves 4 source units left for optical balance. -->
+<g transform="translate(64 64) scale(0.813559322) translate(-64 -64)">
+<rect x="15" y="16" width="98" height="96" rx="25" fill="none" stroke="#1684F7" stroke-width="20"/>
+<path transform="translate(-4 0)" d="M51 38 Q51 35 55 37 L94 60 Q98 63 94 67 L55 89 Q51 91 51 86 Z" fill="#1684F7"/>
+</g>
+</svg>
