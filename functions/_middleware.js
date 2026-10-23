@@ -2,11 +2,9 @@ export async function onRequest(context) {
   const { request, next } = context;
   const url = new URL(request.url);
 
-  // 静的アセット・/en パスはスルー
-  if (
-    url.pathname.startsWith('/en') ||
-    url.pathname.match(/\.(css|js|ico|png|jpg|svg|webp|woff2?)$/)
-  ) {
+  // Language negotiation applies only to the homepage. Product/legal URLs
+  // must remain stable regardless of Cookie or Accept-Language headers.
+  if (url.pathname !== '/' && url.pathname !== '/index.html') {
     return next();
   }
 

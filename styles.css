@@ -938,3 +938,8 @@ footer {
     flex-basis: 100%;
   }
 }
+
+/* Availability is explicit: preparation is not a download offer. */
+.stage-status { display: block; margin-top: 4px; font-size: 11px; opacity: .8; font-weight: 500; }
+.availability { display: inline-block; background: #eeebfa; color: #514184; border-radius: 99px; padding: 4px 12px; font-size: 12px; font-weight: 650; margin: 2px 0 12px; }
+.rewatchkit-card { grid-column: 1 / -1; background: linear-gradient(125deg, #fff, #f1edfc); }
